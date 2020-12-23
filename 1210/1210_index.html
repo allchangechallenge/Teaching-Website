@@ -1,0 +1,98 @@
+<!--A web page for introducing CSS & JavaScript-->
+
+<!DOCTYPE html5>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="author" content="Chris Lin">
+        <meta name="description" content="This is a web page for 12.10 class">
+        <link rel="styleSheet" href="styles/1210_index.css">
+        <script src="scripts/1210_index.js"></script>
+        <title>12.10 CSS + JavaScript</title>
+        <nav>
+            <ul id="menu">
+                <li class="navi">Home > </li>
+                <li class="navi"><a href="1210_cssPlay.html" target="_blank" class="nav_link">CSS PlayGround</a> > </li>
+                <li class="navi"><a href="1210_javaPlay.html" target="_blank" class="nav_link">JavaScript PlayGround</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body onload="main()">
+        <article>
+            <h1>12/10 Material</h1>
+        </article>
+        <article>
+            <section id="sec1">
+                <div class="column" id="leftColumn">
+                    <h2>CSS CheatSheet</h2>
+                    <p>
+                        <div id="leftText">
+                            1. Box Model<br>
+                            <img src="images/boxModel.png" alt="box model image"><br><br>
+                            2. Box Style<br> 
+                            <div class="block">
+                                <span>Content</span>
+                                    <span class="thirdLevel">- div vs. span</span>
+                                    <span class="thirdLevel">- span + display : 自動換行</span>
+                                    <span class="thirdLevel">- text-decoration : 底線、中線、頂線的位置、顏色、樣式</span>
+                                <span>Border : style, width, color, directions</span>
+                                <span>Padding</span>
+                                <span>Margin</span>
+                            </div><br>
+                            3. Font Style<br>
+                            <div class="block">
+                                <span>Family : serif, sans-serif, monospace, cursive, fantasy</span>
+                                <span>Google Fonts</span>
+                                <span>Style : normal, italic</span>
+                                <span>Size</span>
+                                <span>Weight</span>
+                            </div><br>
+                            4. Image Style<br>
+                            <div class="block">
+                                <span>Border radius</span>
+                                <span>Shadow</span>
+                            </div><br>
+                            5. Other<br>
+                            <div class="block">
+                                <span>HTML tags</span>
+                                    <span class="thirdLevel">- a, b, br</span>
+                                <span>Navigation</span>
+                                <span>Display : block, inline, float, flex...</span>
+                            </div>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>JavaScript CheatSheet</h2>
+                    <p>
+                        <div id="rightText">
+                            1. Basic Introduction<br>
+                            <div class="block">
+                                <span>Some history : </span>
+                                <span class="thirdLevel">Mosaic web browser, Netscape navigator, LiveScript, IE(1995), JScript, ECMA, Mozilla Firefox, Chrome(2008), ECMAScript5 and so on...</span>
+                                <span>High-level, JIT</span>
+                                <span>Event-based, object-based</span>
+                                <span>Web : built-in, client-side, dynamic, change HTML and CSS</span>
+                                <span>Powerful APIs : I/O, database, graphics, server...</span>
+                                <span>Third-party libraries & framework : JQuery, Angular, React, Vue</span>
+                            </div><br>
+                            2. Where<br>
+                            <div class="block">
+                                <span>Script tag</span>
+                                <span>Head or body</span>
+                                <span>Direct or linked</span>
+                            </div><br>
+                            3. Console<br><br>
+                            4. Output : write, innerHTML, alert<br><br>
+                            5. <span id="hide"></span><button onclick="message()" id="button1">Secret message</button>
+                        </div>
+                    </p>
+                </div>
+            </section>
+        </article>
+    </body>
+    <footer>
+
+    </footer>
+</html>

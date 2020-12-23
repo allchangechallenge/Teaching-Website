@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+#list {
+    list-style-position: inside;
+}
+
+#list2 {
+    list-style-position: inside;
+}
+
+#lists {
+    border-style: dashed;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#tab1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    color: blueviolet;
+    font-family: 'Langar', cursive;
+    font-size: 300%;
+    text-shadow: 3px 3px 5px red;
+}
+
+#cactus {
+    border-radius: 10px;
+    box-shadow: 3px 3px rebeccapurple;
+}
+
+.fruit {
+    font-weight: bold;
+}
+
+#lemon {
+    color: yellow;
+}
+
+#apple {
+    color: red ;
+}
+
+#banana {
+    color: orange;
+}
+
+#date {
+    color: orange ;
+    text-decoration: line-through;
+}
+
+.block span {
+    display: block;
+}

@@ -1,0 +1,16 @@
+#block {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: orange;
+    padding-left: 5px;
+    margin-left: 10px;
+    font-family: 'Langar', cursive;
+}
+
+#img1 {
+    border-style: solid;
+    border-color: papayawhip;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30%;
+}
