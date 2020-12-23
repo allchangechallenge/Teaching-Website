@@ -1,0 +1,64 @@
+<!DOCTYPE html5>
+<html>
+    <header>
+        <title>12/17 NTNUCIC</title>
+        <link rel="styleSheet" href="styles/index.css">
+        <script src="scripts/index.js"></script>
+    </header>
+    <body>
+        <section id="sec1">
+            <h1 id="head1">12/17 Material</h1>
+        </section>
+        <section id="sec2">
+            <div class="circle" id="p1">
+                <h1 id="c1" onmousedown="create()">更改HTML, CSS</h1>
+            </div>
+            <div class="circle" id="p2" onmousedown="show()">
+                <h1>Collect user information</h1>
+            </div>
+            <div class="circle" id="p3" onmousedown="ani()">
+                <h1>Animation</h1>
+            </div>
+        </section>
+        <section id="sec3">
+            <div class="content">
+                <div id="cont1"></div>
+                <div id="hide" style="display: none;">
+                    <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor" id="curLink">cursor style</a>
+                </div>
+            </div>
+            <div class="content">
+                <div id="cont2" style="display: none;">
+                    <p>
+                        <form name="form" id="form">
+                            <label>Name : </label>
+                            <input type="text" id="name" name="name"><br><br>
+                            <label>Password : </label>
+                            <input type="password" id="pw" name="pw"><br><br>
+                        </form>
+                        <form id="radio">
+                            <label>請選擇一個數字</label>
+                            <input type="radio" name="num" value="1"><label>1</label>
+                            <input type="radio" name="num" value="2"><label>2</label>
+                            <input type="radio" name="num" value="3"><label>3</label><br><br>
+                        </form>
+    
+                        <form name="form3">
+                            <label>今天的日期</label>
+                            <input type="date" name="date">
+                        </form>
+                        <br><br><button onclick="submit()">Submit</button>
+                    </p>
+                </div>
+
+            </div>
+            <div class="content">
+                <div id="cont3" style="display: none;">
+                    <img src="images/snowflake.png" id="snow">
+                    <img src="images/snowflake.png" id="snow2">
+                    <img src="images/snowflake.png" id="snow3">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

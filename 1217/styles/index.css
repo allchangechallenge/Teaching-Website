@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+}
+
+#sec1 {
+    margin-top: 5%;
+}
+
+#head1 {
+    font-size: 300%;
+    text-shadow: 2px 2px 2px goldenrod;
+}
+
+#sec2 {
+    display: flex;
+    margin-top: 10%;
+}
+
+.circle {
+    border: solid goldenrod;
+    border-radius: 50%;
+    -webkit-border-radius: 50px;
+    flex: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+
+.circle:hover {
+    cursor: grab;
+    background-color: khaki;
+}
+
+#sec3 {
+    display: flex;
+}
+
+.content {
+    flex: 50%;
+}
+
+#curLink {
+    font-size: 200%;
+    font-family: monospace;
+}
+
+#curLink:visited {
+    color: hotpink;
+}
+
+#form {
+    text-align: left;
+    padding-left: 20%;
+}
+
+#name {
+    width: 58%;
+}
+
+#cont3 {
+    margin: 50px;
+}
+
+#snow {
+    width: 5%;
+    position: absolute;
+}
+
+#snow2 {
+    width: 3%;
+    position: absolute;
+}
+
+#snow3 {
+    width: 1.5%;
+    position: absolute;
+}
