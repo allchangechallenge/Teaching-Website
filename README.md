@@ -1,2 +1,2 @@
 # Teaching-Website
-Website for teaching how to create a website
+Websites for teaching how to create a website @NTNUCIC
