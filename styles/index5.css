@@ -1,0 +1,16 @@
+section {
+    display: flex;
+} 
+
+.col {
+    flex: 0% ;
+} 
+
+#column {
+    display: flex;
+}
+
+/*
+#para1 {
+    display: inline-flex;
+} */

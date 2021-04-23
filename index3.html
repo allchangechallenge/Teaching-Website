@@ -1,0 +1,97 @@
+<!--This is a comment-->
+<!DOCTYPE html5>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Chris Lin">
+        <meta name="description" content="This will be the description shown on the searching page.">
+        <link rel="styleSheet" href="styles/index3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Langar&display=swap" rel="stylesheet">
+        <script src="scripts/index3.js"></script>
+        <title>New Page</title>
+    </head>
+    <body onload="main()">
+        <p class="text">
+            <h1 id="title">The biggest</h1>
+            <h2>Second biggest</h2>
+            <div id="中文">
+                Put your content here.<br>
+                Another line.
+            </div>
+            <div> 
+                <a href="https://github.com/googlefonts"><img src="images/cactus.JPG" alt="這裡本來應該有圖片但是你顯示不出來" id="cactus"style="width: 150px;"></a>
+            </div>
+            <div id="lists">
+                <ul id="list">
+                    <li class="fruit" id="lemon">Lemon</li>
+                    <li class="fruit" id="apple">Apple</li>
+                    <li class="fruit" id="banana">Banana</li>
+                </ul>
+                <ol id="list2">
+                    <li style="color: aqua;">Rice</li>
+                    <li>Hotpot</li>
+                    <li>Cheese</li>
+                </ol>
+            </div>
+            <div>
+                <table style="border: 2px solid;" id="tab1">
+                    <tr>
+                        <th colspan="2">Fruits</th>
+                    </tr>
+                    <tr>
+                        <td>Cherry</td>
+                        <td>Guava</td>
+                    </tr>
+                    <tr>
+                        <td>Orange</td>
+                        <td>Tomato</td>
+                    </tr>
+                </table>
+            </div>
+
+        </p>
+        <p id="paragraph" class="text">
+            <div class="block">
+                <span id="date">Today is 12/10</span>
+                <span>Other things.</span>
+                <span>Line 3</span>
+                <span>Line 4</span>
+            </div>
+            <div class="block">
+                Another block.
+                Line 2 
+                Line 3
+            </div>
+            <div>
+                <p id="12/17"></p>
+                <button onclick="button()" id="b1">Click me</button>
+                <img src="images/temp1.jpg" id="light">
+            </div>
+        </p>
+        <section>
+            <div>
+                <form name="form">
+                    <label>Name : </label><input type="form" id="name">
+                    <label>&nbsp&nbspPassword : </label><input type="password" name="pw"><br><br>
+                </form>
+
+                <form name="radio">
+                    <label>Select : </label>
+                    <input type="radio" name="num" value="1"> Scissor
+                    <input type="radio" name="num" value="2"> Stone
+                    <input type="radio" name="num" value="3"> Paper
+                </form>
+
+                <form name="checkBox">
+                    <br>
+                    <label>Check box</label>
+                    <input type="checkbox" name="check" value="Mon"> Monday
+                    <input type="checkbox" name="check" value="Mon"> Tuesday
+                </form>
+
+                
+                <button onclick="greet()">Send</button>
+            </div>
+        </section>
+    </body>
+</html>
